@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em hospedagem própria</title>
+</head>
+<body>
+    <h1>Inseredindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <!-- Inserimos vídeos assim como áudios.
+        Obs.: Devemos colocar dessa forma pois será testado cada tipo de vídeo, e
+                no final caso nenhum seja compativel com o navegador a mensagem
+                exibida no parágrafo é renderizada na tela. -->
+    <video preload="metadata" width="500" controls loop autoplay>
+        <source src="Vídeos/Vídeo mp4.mp4" type="video/mp4">
+        <source src="Vídeos/Vídeo mkv.mkv" type="video/mkv">
+        <source src="Vídeos/Vídeo Original.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+</body>
+</html>
