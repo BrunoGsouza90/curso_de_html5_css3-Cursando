@@ -17,18 +17,26 @@
 <body>
     <h1>Criando formulários</h1>
 
-    <form action="cadastro.php" method="post">
+    <form action="cadastro.html" method="post" autocomplete="on">
 
-        <p><label for="inome">Nome:</label>
-            <input name="nome" id="inome" type="text" autocomplete="off">
+        <p>
+            <label for="iusu">Usuário: </label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="30" size="25" placeholder="Digite o nome do usuário...">
         </p>
 
-        <p><label for="isobrenome">Sobrenome:</label>
-            <input name="sobrenome" id="isobrenome" type="text" autocomplete="off">
+        <p>
+            <label for="isen">Senha: </label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="25" placeholder="Digite sua senha...">
+        </p>
+
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="media" id="imedia" min="0" max="10" step="0.5">
         </p>
 
         <p>
             <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
         </p>
 
     </form>
