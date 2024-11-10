@@ -17,11 +17,19 @@
 <body>
     <h1>Criando formulários</h1>
 
-    <form>
+    <form action="cadastro.php" method="post">
 
-        <p>Nome: <input name="nome" id="nome" type="text"></p>
-        <p>Sobrenome: <input name="sobrenome" id="sobrenome" type="text"></p>
-        <p><input type="submit" value="Enviar"></p>
+        <p><label for="inome">Nome:</label>
+            <input name="nome" id="inome" type="text" autocomplete="off">
+        </p>
+
+        <p><label for="isobrenome">Sobrenome:</label>
+            <input name="sobrenome" id="isobrenome" type="text" autocomplete="off">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
 
     </form>
 
