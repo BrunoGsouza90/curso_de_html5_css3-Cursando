@@ -101,3 +101,37 @@ article p{
     text-indent: 20px;
 
 }
+
+@media screen and (min-width: 768px){
+
+    i#burguer{
+
+        display: none;
+
+    }
+
+    menu{
+
+        display: block;
+    
+    }
+
+    menu a{
+
+        border-radius: 5px;
+
+    }
+
+    menu li{
+
+        display: inline-block;
+
+    }
+
+    main{
+
+        width: 768px;
+
+    }
+
+}
