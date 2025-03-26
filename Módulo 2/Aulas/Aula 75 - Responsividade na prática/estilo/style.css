@@ -8,7 +8,6 @@
     font-size: normal;
 }
 
-
 /*
 Cores que serão usadas:
 
@@ -25,7 +24,8 @@ Cores que serão usadas:
 /* 
     Aqui estamos definindo as Variáveis Globais do nosso CSS.
 */
-:root{
+:root {
+    
     --cor0:#ebe5c5;
     --cor1:#83e1ad;
     --cor2:#3ddc84;
@@ -36,41 +36,53 @@ Cores que serão usadas:
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', 'cursive';
     --fonte-android: 'Android', 'cursive';
+
 }
 
 /*
-    Aqui estamos fazendo as Configurações Globais do nosso CSS.
-    Nesse momento retiramos as Margens e Paddings de todos os
-        elementos do site.
+    Aqui estamos fazendo as Configurações Globais do nosso CSS. Nesse momento retiramos as Margens e Paddings de todos os elementos do site.
 */
-*{
+* {
+
     margin: 0px;
     padding: 0px;
+
 }
 
-body{
+body {
+
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
+
 }
 
-header{
+header {
+
     background-color: var(--cor4);
+
 }
 
-header > h1{
+header > h1 {
+
     color: white;
     font-family: var(--fonte-destaque);
+
 }
 
-header > p{
+header > p {
+
     color: white;
+
 }
 
-nav{
+nav {
+
     background-color: var(--cor5);
+
 }
 
-main{
+main {
+
     min-width: 250px;
     max-width: 800px;
     padding: 20px;
@@ -79,28 +91,38 @@ main{
     margin: auto;
     border-radius: 10px;
     margin-bottom: 20px;
+
 }
 
-main h1{
+main h1 {
+
     color: var(--cor5);
     font-family: var(--fonte-android);
+
 }
 
-main h2{
+main h2 {
+
     font-family: var(--fonte-android);
+
 }
 
-main img{
+main img {
+
     width: 100%;
     display: block;
     margin: auto;
+
 }
 
-main img.pequena{
+main img.pequena {
+
     width: 50%;
+
 }
 
-footer{
+footer {
+
     background-color: var(--cor5);
     color: white;
 

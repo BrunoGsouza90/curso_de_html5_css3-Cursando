@@ -1,6 +1,7 @@
 @charset "utf8";
 
-h1.titulo{
+h1.titulo {
+
     background-color: lightgray;
     height: 300px;
     width: 300px;
@@ -9,12 +10,12 @@ h1.titulo{
     border-width: 10px;
 
     /* Aqui configuramos o estilo da borda.
+
         Temos os seguintes estilos de borda:
         
         solid   →   Borda padrão. Ela é sólida.
         none    →   Sem borda.
-        hidden  →   Sem borda, mas usado em tabelas quando você quer ocultar 
-            bordas de um lado de uma célula. 
+        hidden  →   Sem borda, mas usado em tabelas quando você quer ocultar bordas de um lado de uma célula. 
         double  →   Borda dupla.
         dashed  →   Borda tracejada.
         dotted  →   Borda pontilhada.
@@ -40,8 +41,10 @@ h1.titulo{
     padding-left: 10px;
 }
 
-a.link{
+a.link {
+
     border-width: 10px;
     border-style: solid;
     border-color: red;
+    
 }

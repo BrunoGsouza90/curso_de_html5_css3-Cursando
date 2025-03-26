@@ -1,10 +1,13 @@
 @charset "utf8";
 
-body{
+body {
+
     background-color: rgba(240, 128, 128, 0.247);
+
 }
 
-a#link{
+a#link {
+
     text-decoration: none;
     font: italic 25px cursive;
     background-color: lightskyblue;
@@ -17,19 +20,25 @@ a#link{
     border-radius: 5px;
     box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.363);
     cursor: pointer;
-}
 
-a#link:visited{
+}
+ 
+a#link:visited {
+
     color: black;
+     
 }
 
-a#link:hover{
+a#link:hover {
+
     background-color: rgba(103, 147, 179, 0.411);
     color: white;
     border-color: rgba(0, 0, 255, 0.363);
+
 }
 
-img{
+img {
+
     display: block;
     height: 350px;
     border-radius: 10px;
@@ -37,9 +46,11 @@ img{
     margin: auto;
     margin-top: 3%;
     cursor: pointer;
+
 }
 
-div#bloco{
+div#bloco {
+
     display: block;
     background-color: rgba(127, 255, 212, 0.534);
     padding: 50px;
@@ -47,4 +58,5 @@ div#bloco{
     width: auto;
     width: 800px;
     margin: auto;
+    
 }

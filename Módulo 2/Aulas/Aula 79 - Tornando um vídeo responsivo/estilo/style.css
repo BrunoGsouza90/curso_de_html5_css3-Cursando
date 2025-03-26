@@ -8,7 +8,6 @@
     font-size: normal;
 }
 
-
 /*
 Cores que serão usadas:
 
@@ -25,7 +24,8 @@ Cores que serão usadas:
 /* 
     Aqui estamos definindo as Variáveis Globais do nosso CSS.
 */
-:root{
+:root {
+
     --cor0:#ebe5c5;
     --cor1:#83e1ad;
     --cor2:#3ddc84;
@@ -36,28 +36,35 @@ Cores que serão usadas:
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', 'cursive';
     --fonte-android: 'Android', 'cursive';
+
 }
 
 /*
-    Aqui estamos fazendo as Configurações Globais do nosso CSS.
-    Nesse momento retiramos as Margens e Paddings de todos os
-        elementos do site.
+    Aqui estamos fazendo as Configurações Globais do nosso CSS. Nesse momento retiramos as Margens e Paddings de todos os elementos do site.
 */
-*{
+
+* {
+
     margin: 0px;
     padding: 0px;
+
 }
 
-body{
+body {
+
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
+
 }
 
-a.externo::after{
+a.externo::after {
+
     content: '\1f517';
+
 }
 
-header{
+header {
+
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -67,48 +74,60 @@ header{
     text-align: center;
     padding-top: 40px;
     border-radius: 5px 5px 0px 0px;
+
 }
 
-header > h1{
+header > h1 {
+
     color: white;
     font-size: 3em;
     font-weight: normal;
     font-family: var(--fonte-destaque);
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.397);
+
 }
 
-header > p{
+header > p {
+
     font-family: var(--fonte-padrao);
     margin: auto; 
     max-width: 600px;
     color: white;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.397);
+
 }
 
-nav{
+nav {
+
     text-align: start;
     margin-top: 5%;
     padding: 10px;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.356);
     background-color: var(--cor5);
+
 }
 
-nav a{
+nav a {
+
     color: white;
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
     transition-duration: 0.3s;
+
 }
 
-nav a:hover{
+nav a:hover {
+
     background-color: var(--cor3);
     color: var(--cor5);
+
 }
 
-main{
+main {
+
     min-width: 250px;
     max-width: 800px;
     padding: 20px;
@@ -118,16 +137,20 @@ main{
     margin-top: 2%;
     border-radius: 10px;
     margin-bottom: 20px;
+
 }
 
-main h1{
+main h1 {
+
     color: var(--cor5);
     font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.8em;
+
 }
 
-main h2{
+main h2 {
+
     font-family: var(--fonte-android);
     color: var(--cor4);
     font-size: 1.3em;
@@ -136,110 +159,143 @@ main h2{
     text-indent: 8px;
     padding: 5px;
     border-radius: 3px;
+
 }
 
-main p{
+main p {
+
     margin: 15px 0px 15px 0px;
     text-align: justify;
     text-indent: 30px;
     line-height: 2em;
     font-size: 1em;
+
 }
 
-main strong{
+main strong {
+
     font-weight: bolder;
     padding: 2px 6px 2px 6px;
     border-radius: 5px;
+
 }
 
-main a{
+main a {
+
     text-decoration: none;
     font-weight: bold;
     color: var(--cor5);
     background-color: var(--cor1);
     padding: 2px 6px 2px 6px;
     border-radius: 5px;
+
 }
 
-main a:hover{
+main a:hover {
+
     text-decoration: underline;
     color: var(--cor4);
+
 }
 
-main img{
+main img {
+
     width: 100%;
     display: block;
     margin: auto;
+
 }
 
-main div.video{
+main div.video {
+
     background-color: var(--cor5);
     margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 57%;
     position: relative;
+
 }
 
-main div.video iframe{
+main div.video iframe {
+
     position: absolute;
     top: 5%;
     left: 5%;
     width: 90%;
     height: 90%;
     border-radius: 5px;
+
 }
 
-main img.pequena{
+main img.pequena {
+
     max-width: 350px;
     display: block;
     margin: auto;
+
 }
 
-main article aside{
+main article aside {
+
     background-color: var(--cor1);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.377);
     border: 1px solid rgba(10, 143, 10, 0.582);
+
 }
 
-main article aside ul{
+main article aside ul {
+
     list-style-type: '\2714\00A0';
     list-style-position: inside;
     columns: 2;
+
 }
 
-main article aside h3{
+main article aside h3 {
+
     background-color: var(--cor4);
     color: white;
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
+
 }
 
-footer{
+footer {
+
     background-color: var(--cor5);
     color: white;
     text-align: center;
     font-size: 1.1em;
     padding: 20px;
+
 }
 
-footer strong{
+footer strong {
+
     font-weight: bold;
+
 }
 
-footer a{
+footer a {
+
     color: white;
     font-weight: lighter;
     text-decoration: none;
+
 }
 
-footer a:hover{
+footer a:hover {
+
     text-decoration: underline;
     color: var(--cor1);
+
 }
 
-footer p{
+footer p {
+
     padding: 10px;
+    
 }

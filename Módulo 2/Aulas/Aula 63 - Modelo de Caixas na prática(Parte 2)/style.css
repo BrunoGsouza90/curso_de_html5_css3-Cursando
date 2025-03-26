@@ -1,6 +1,7 @@
 @charset "utf8";
 
-h1.titulo{
+h1.titulo {
+
     background-color: lightgray;
     height: 300px;
     width: 300px;
@@ -24,19 +25,19 @@ h1.titulo{
             da borda. */
     margin-right: 10px;
 
-    /* Aqui determinamos o espaço externo ao lado esquerdo do elemento 
-            depois da borda. */
+    /* Aqui determinamos o espaço externo ao lado esquerdo do elemento depois da borda. */
     margin-left: 10px;
 
-    /* Aqui configuramos o espaço externo que faz parte da margem.
-            Como a margem tem 10px estamos ocupando 5px desta. */
+    /* Aqui configuramos o espaço externo que faz parte da margem. Como a margem tem 10px estamos ocupando 5px desta. */
     outline-width: 5px;
 
     /* Configuração do espaço externo ocupado na margem para pontilhado. */
     outline-style: dashed;
+
 }
 
-h1#titulo_centralizado{
+h1#titulo_centralizado {
+
     background-color: lightgray;
     height: 300px;
     width: 300px;
@@ -50,25 +51,27 @@ h1#titulo_centralizado{
     padding-right: 10px;
     padding-left: 10px;
 
-    /* Configuração de margin para os lados direito e esquerdo, mantendo 
-            o box centralizado */
+    /* Configuração de margin para os lados direito e esquerdo, mantendo o box centralizado */
     margin: auto;
+
 }
 
-h1#titulo_short-hands{
+h1#titulo_short-hands {
+
     background-color: lightgray;
     height: 300px;
     width: 300px;
 
-    /* Aqui estamos usando configurações short-hands para simplificar
-            o uso do "border", "margin", "padding" e "outline". */
+    /* Aqui estamos usando configurações short-hands para simplificar o uso do "border", "margin", "padding" e "outline". */
     border: 10px solid darkslategray;
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
     outline: 5px dashed gray;
+
 }
 
-a.link{
+a.link {
+
     border-width: 10px;
     border-style: solid;
     border-color: red;
@@ -82,4 +85,5 @@ a.link{
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 10px;
+    
 }
