@@ -6,13 +6,13 @@
     <title>Tabelas grandes</title>
     <style>
 
-        body{
+        body {
 
             font-family: Arial, Helvetica, sans-serif;
 
         }
 
-        table{
+        table {
 
             margin: 0 auto;
             margin-top: 70px;
@@ -23,7 +23,7 @@
 
         }
 
-        caption{
+        caption {
 
             font-size: 1.5em;
             font-weight: bold;
@@ -46,28 +46,28 @@
 
         }
 
-        thead, tfoot{
+        thead, tfoot {
 
             background-color: gray;
             color: white;
 
         }
 
-        thead{
+        thead {
 
             position: sticky;
             top: 0;
 
         }
 
-        td, th{
+        td, th {
 
             border: 1px solid black;
             padding: 10px;
 
         }
 
-        .numero{
+        .numero {
             
             text-align: right;
             width: 100px;
@@ -75,8 +75,15 @@
         }
 
     </style>
+
 </head>
 <body>
+
+    <div style="margin-bottom: 30px; display: flex; justify-content: space-between;">
+        <a style="font-size: 13pt; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-style: italic;" href="../Aula 88 - Minha primeira tabela/ex0088.html"><span style="font-weight: bold; font-size: 20pt;">&lt;&lt;Voltar</span>&nbsp;&nbsp;&nbsp;&nbsp;Aula 88 - Minha primeira tabela</a>
+        <a style="font-size: 13pt; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-style: italic;" href="../Aula 90 - Mesclagem de células/ex0090.html">&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: bold; font-size: 20pt;">Avançar &gt;&gt; Aula 90 - Mesclagem de células</span></a>
+    </div>
+
     <h1>Tabelas grandes</h1>
 
     <table>
@@ -84,56 +91,90 @@
         <caption>( População das Unidades Federativas )</caption>
 
         <thead>
+
             <tr id="cabecalho">
                 <th>Estado</th>
                 <th>População</th>
             </tr>
+
         </thead>
 
         <tbody>
+
             <tr>
+
                 <td>São Paulo</td>
                 <td class="numero">45 919 049</td>
+
             </tr>
+
             <tr>
+
                 <td>Minas Gerais</td>
                 <td class="numero">21 168 791</td>
+
             </tr>
+
             <tr>
+
                 <td>Rio de Janeiro</td>
                 <td class="numero">17 264 943</td>
+
             </tr>
+
             <tr>
+
                 <td>Bahia</td>
                 <td class="numero">17 850 513</td>
+
             </tr>
+
             <tr>
+
                 <td>Paraná</td>
                 <td class="numero">11 824 665</td>
+
             </tr>
+
             <tr>
+
                 <td>Rio Grande do Sul</td>
                 <td class="numero">11 229 915</td>
+
             </tr>
+
             <tr>
+
                 <td>Pernambuco</td>
                 <td class="numero">9 539 029</td>
+
             </tr>
+
             <tr>
+
                 <td>Ceará</td>
                 <td class="numero">9 233 656</td>
+
             </tr>
+
             <tr>
+
                 <td>Pará</td>
                 <td class="numero">8 664 306</td>
+
             </tr>
+
         </tbody>
 
         <tfoot>
+
             <tr>
+
                 <th>Total de Habitantes</th>
                 <td id="resultado" class="numero"></td>
+
             </tr>
+            
         </tfoot>
 
     </table>
