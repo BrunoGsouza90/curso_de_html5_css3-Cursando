@@ -13,21 +13,21 @@ TV: acima de 1200px.
 */
 
 /* Impressora. */
-@media print{
+@media print {
 
-    body{
+    body {
 
         background-image: url(../Imagens/back-print.jpg); /* Desnecessário. */
 
     }
 
-    main{
+    main {
 
         border: 2px solid rgba(0, 0, 0, 0.349);
 
     }
 
-    main h1{
+    main h1 {
 
         font-family: 'Courier New', Courier, monospace;
         text-shadow: none;
@@ -35,30 +35,30 @@ TV: acima de 1200px.
 
     }
 
-    img#phone{
+    img#phone {
 
         display: none;
     
     }
     
-    img#tablet{
+    img#tablet {
     
         display: none;
     }
     
-    img#print{
+    img#print {
     
         display: block;
     
     }
     
-    img#pc{
+    img#pc {
     
         display: none;
     
     }
     
-    img#tv{
+    img#tv {
     
         display: none;
     
@@ -67,9 +67,9 @@ TV: acima de 1200px.
 }
 
 /* Tablet. */
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
-    body{
+    body {
 
         background-image: url(../Imagens/back-tablet.jpg);
         background-repeat: no-repeat;
@@ -78,30 +78,30 @@ TV: acima de 1200px.
 
     }
 
-    img#phone{
+    img#phone {
 
         display: none;
     
     }
     
-    img#tablet{
+    img#tablet {
     
         display: block;
     }
     
-    img#print{
+    img#print {
     
         display: none;
     
     }
     
-    img#pc{
+    img#pc {
     
         display: none;
     
     }
     
-    img#tv{
+    img#tv {
     
         display: none;
     
@@ -111,9 +111,9 @@ TV: acima de 1200px.
 
 
 /* Desktop. */
-@media screen and (min-width: 992px) and (max-width: 1200px){
+@media screen and (min-width: 992px) and (max-width: 1200px) {
 
-    body{
+    body {
 
         background-image: url(../Imagens/back-pc.jpg);
         background-position: center center;
@@ -122,30 +122,30 @@ TV: acima de 1200px.
 
     }
 
-    img#phone{
+    img#phone {
 
         display: none;
     
     }
     
-    img#tablet{
+    img#tablet {
     
         display: none;
     }
     
-    img#print{
+    img#print {
     
         display: none;
     
     }
     
-    img#pc{
+    img#pc {
     
         display: block;
     
     }
     
-    img#tv{
+    img#tv {
     
         display: none;
     
@@ -154,9 +154,9 @@ TV: acima de 1200px.
 }
 
 /* TV. */
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
 
-    body{
+    body {
 
         background-image: url(../Imagens/back-tv.jpg);
         background-position: center center;
@@ -165,30 +165,30 @@ TV: acima de 1200px.
 
     }
 
-    img#phone{
+    img#phone {
 
         display: none;
     
     }
     
-    img#tablet{
+    img#tablet {
     
         display: none;
     }
     
-    img#print{
-    
-        display: none;
-    
-    }
-    
-    img#pc{
+    img#print {
     
         display: none;
     
     }
     
-    img#tv{
+    img#pc {
+    
+        display: none;
+    
+    }
+    
+    img#tv {
     
         display: block;
     

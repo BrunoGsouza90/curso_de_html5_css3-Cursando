@@ -2,9 +2,9 @@
 
 /* Declarações Gerais. */
 
-@media all{
+@media all {
 
-    *{
+    * {
 
         margin: 0px;
         padding: 0px;
@@ -12,7 +12,7 @@
 
     }
 
-    html, body{
+    html, body {
 
     width: 100vw;
     height: 100vh;
@@ -22,7 +22,7 @@
 
     }
 
-    h1{
+    h1 {
 
     color: white;
     text-shadow: 2px 2px 0px #2332a3;
@@ -34,9 +34,9 @@
 
 /* Declarações de Retrato. */
 
-@media screen and (orientation: portrait){
+@media screen and (orientation: portrait) {
 
-    body{
+    body {
 
     background-image: url(./Imagens/cev-portrait.jpg);
     background-position: center bottom;
@@ -47,9 +47,9 @@
 
 /* Declarações de Paisagem. */
 
-@media screen and (orientation: landscape){
+@media screen and (orientation: landscape) {
 
-    body{
+    body {
 
         background-image: url(./Imagens/cev-landscape.jpg);
         background-position: left bottom;

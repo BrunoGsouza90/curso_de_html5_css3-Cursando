@@ -2,7 +2,7 @@
 
 /* Estilo para telas. */
 
-*{
+* {
 
     margin: 0px;
     padding: 0px;
@@ -16,26 +16,26 @@ html {
 
 }
 
-header{
+header {
 
     background-color: lightgray;
 
 }
 
-header > h1{
+header > h1 {
 
     text-align: center;
 
 }
 
-menu ul{
+menu ul {
 
     list-style-type: none;
     background-color: gray;
 
 }
 
-menu li{
+menu li {
 
     background-color: rgb(75, 75, 75);
     color: white;
@@ -44,7 +44,7 @@ menu li{
 
 }
 
-article{
+article {
 
     width: 600px;
     display: block;
