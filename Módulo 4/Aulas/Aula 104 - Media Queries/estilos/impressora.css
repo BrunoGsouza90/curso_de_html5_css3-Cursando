@@ -23,6 +23,12 @@ menu {
 
 }
 
+#links{
+    
+    display: none;
+
+}
+
 article{ 
 
     width: 100%;
