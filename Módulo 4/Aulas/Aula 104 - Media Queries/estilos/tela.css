@@ -22,6 +22,12 @@ header {
 
 }
 
+div#links{
+
+    display: flex;
+
+}
+
 header > h1 {
 
     text-align: center;
