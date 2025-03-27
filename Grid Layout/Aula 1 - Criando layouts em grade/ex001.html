@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Criando layouts em grade</title>
+
+    <style>
+
+        body, html{
+
+            height: 100vh;
+
+        }
+
+        body{
+
+            font-family: Arial;
+            color: black;
+        }
+
+        .container{
+
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+
+        }
+
+        .item{
+
+            background-color: rgb(52, 52, 190);
+            color: white;
+            border: 1px solid black;
+            text-align: center;
+
+        }
+
+        div#item_3{
+
+            grid-row-start: 1;
+            grid-row-end: span 3;
+
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <h1>Criando layouts em grade</h1>
+    
+    <div class="container">
+
+        <div class="item" id="item_1">CFB Cursos 1</div>
+        <div class="item" id="item_2">CFB Cursos 2</div>
+        <div class="item" id="item_3">CFB Cursos 3</div>
+        <div class="item" id="item_4">CFB Cursos 4</div>
+        <div class="item" id="item_5">CFB Cursos 5</div>
+        <div class="item" id="item_6">CFB Cursos 6</div>
+        <div class="item" id="item_7">CFB Cursos 7</div>
+        <div class="item" id="item_8">CFB Cursos 8</div>
+        <div class="item" id="item_9">CFB Cursos 9</div>
+
+    </div>
+
+</body>
+</html>
